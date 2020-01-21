@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.hidden {
+	display:none;
+		}
+.error {
+	color:red;
+		}
+#pizzaMan{
+    float:right;
+    clear:left;
+    
+}
+body {
+    background-color:rgb(0, 250, 100);
+    
+}

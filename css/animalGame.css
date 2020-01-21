@@ -1,0 +1,23 @@
+.border {
+     border: 3px solid blue ;
+}
+        
+.noBorder{
+     border: 3px solid transparent;
+}
+#items {
+     text-align:center;
+     display:block;
+}
+#status {
+     font-size:large;
+}
+#animal {
+     color: rgb(50,255,0);
+}
+body{
+     background-color: coral;
+}
+h4{
+     font-size:large;
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.hidden {
+	display:none;
+		}
+.error {
+	color:red;
+		}
+
+body {
+    background-color:rgb(219, 233, 255);
+    
+}
+#bear
+{
+    float:right;
+    height: 200px;
+    width: 75%;
+    
+}

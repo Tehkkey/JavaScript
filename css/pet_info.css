@@ -1,0 +1,15 @@
+.blue{
+	color:blue;
+    font-family:Impact, Charcoal, sans-serif;
+	}
+h1,p{
+    text-align:center;
+}
+#centerPic{
+    text-align:center;
+}
+.animal{
+    border-style: dashed;
+    border-width: 5px;
+    border-color:black;
+}
