@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+    Author: Kyle Sanchez
+    Date: 12/10/2019
+    Assignment: Build A Bear Form
+
+-->   
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="css/buildABear.css"/>
+    <title>Build A Bear</title>
+</head>
+<body>
+    <h1>Build-A-Bear</h1>
+<form id="survey" action="success.html" method="get">
+    <label for="bname">Bear name to be displayed on chest:
+        <input type="text" id="bname">
+        </label> 
+        <span id="error-Bname" class="hidden">* Required</span>
+        <br>
+        <br>
+        <div id="bear">
+            <img alt="build a Bear Teddy Bear"  src="images/BAB.jpg">
+        </div>
+        
+        
+        <br>
+        <br>
+        <h2>What color would you like your bear?</h2>
+        <select id="color" name="color">	    	    
+            <option value="Brown">Classic Teddy Bear Brown</option>
+            <option value="Grey">Legend Black</option>	 
+            <option value="Red">Valentine Crush Red</option>
+            <option value="White">White like Snow</option>	
+        </select>
+        <span id="error-color" class="hidden">* Required</span>
+        <br>
+        <br>
+        <h2>Size: </h2>
+        <label for="size">Please Choose One:</label>
+        <br>
+            <input type="radio" name="size">Small (size of two hands put together)<br>
+            <input type="radio" name="size">Medium (size of average bear) <br>
+            <input type="radio" name="size">Large (as large as those absurd ones you see at the fair)<br>
+        
+        <span id="error-size" class="hidden">* Required</span>
+
+        <h2>  </h2>
+        <br>
+        <br>
+        <label> Add-ons for your new friend: </label><br>
+        <p>(You must select all addons to achieve success)</p>
+            <input type="checkbox" id="addOn" name="addOn">Heart displayed on chest<br>
+            <input type="checkbox" id="addOn" name="addOn">Bow Tie<br>
+            <input type="checkbox" id="addOn" name="addOn">Top Hat<br>
+            <span id="error-addon" class="hidden">* Required</span>
+        
+        <br>
+        <br>
+    
+    <input type="submit" value="Submit Order">
+    
+    
+    
+    
+</form>
+    
+
+
+
+<script src="scripts/buildABear.js"></script>
+</body>
+</html>
